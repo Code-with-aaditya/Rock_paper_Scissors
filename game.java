@@ -12,19 +12,21 @@ public class game {
         System.out.println("'0' for Rock, '1' for Paper and '2' for Scissors.");
         int userInput = sc.nextInt(); // Take User input
         // Logic behind the game
-        if(userInput == 0 && computerInput == 2 || userInput == 2 && computerInput == 1 || userInput == 1 && computerInput == 0) {
+        if (userInput == 0 && computerInput == 2 || userInput == 2 && computerInput == 1
+                || userInput == 1 && computerInput == 0) {
             System.out.println("You Won!");
-        } else if(computerInput == userInput) {
+        } else if (computerInput == userInput) {
             System.out.println("Tie!");
-        } else if(userInput == 2 && computerInput == 0 || userInput == 1 && computerInput == 2 || userInput == 0 && computerInput == 1) {
+        } else if (userInput == 2 && computerInput == 0 || userInput == 1 && computerInput == 2
+                || userInput == 0 && computerInput == 1) {
             System.out.println("You Lose!");
         } else {
             System.out.println("Invalid Input");
         }
         // Showing the computer
-        if(computerInput == 0) {
+        if (computerInput == 0) {
             System.out.println("Computer choice is: " + "Rock");
-        } else if(computerInput == 1) {
+        } else if (computerInput == 1) {
             System.out.println("Computer choice is: " + "Paper");
         } else {
             System.out.println("Computer choice is: " + "Scissor");
