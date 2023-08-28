@@ -1,4 +1,6 @@
-# This is my first game called Rock Paper and Scissors
+# This is my first public repository
+<br>
+Creating a very famous game called Rock Paper Scissors.
 <br>
 Tech Stack is Java
 <br>
