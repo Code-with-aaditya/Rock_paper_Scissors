@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class game {
     public static void main(String[] args) {
         System.out.println("Rock, Paper, Scissors");
-        
         Scanner sc = new Scanner(System.in);
         Random random = new Random(); // Generate random number -> upto 2
         int computerInput = random.nextInt(3);
